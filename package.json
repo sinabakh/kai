@@ -3,8 +3,8 @@
   "main": "./lib/arendelle",
   "version": "0.2.0",
   "description": "Arendelle language support in Atom",
-  "keywords": [],
-  "repository": "https://github.com/arendelle/arendelle-atom",
+  "keywords": ["arendelle","language"],
+  "repository": "https://github.com/arendelle/kai",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

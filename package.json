@@ -1,9 +1,12 @@
 {
   "name": "arendelle",
   "main": "./lib/arendelle",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Arendelle language support in Atom",
-  "keywords": ["arendelle","language"],
+  "keywords": [
+    "arendelle",
+    "language"
+  ],
   "repository": "https://github.com/arendelle/kai",
   "license": "MIT",
   "engines": {

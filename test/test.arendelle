@@ -1,0 +1,132 @@
+[ #j ,
+
+    [ #i , pnr ]
+    [ #i , l ]
+    dnn
+
+]
+d
+{ 1 = 1 ,
+
+    [ 10 , r ]
+,
+    [ 5 , d ]
+
+} p
+[ Mathematical Expression , Code ]
+
+[ #width ,
+
+    { #x = 3 and #x = 6 or #x = #width - 5 , p } r
+
+]
+
+ !
+
+[ #j ,
+
+    [ #i ,
+
+       { #x + #y < 10 , p }
+       r
+
+    ]
+    [ #i , l ]
+    d
+
+]
+
+[ #j ,
+
+    [ #i ,
+
+       { #x^2 + #y^2 < 300 , p }
+       r
+
+    ]
+    [ #i , l ]
+    d
+
+]
+
+[ #j ,
+
+    [ #i ,
+
+       { ( #i / 2 - #x )^2 +
+         ( #j / 2 - #y )^2 < 125 , p } r
+
+    ]
+    [ #i , l ]
+    d
+
+]
+ $sfsad
+!dfasd()
+  !folder.function ()
+  !drawLine ( @space )
+( number1 , 10 )
+[ @number ,
+
+    [ @number , pr ]
+    [ @number , pd ]
+    [ @number , pl ]
+    [ @number , pu ]
+
+]
+
+
+[ 1=1 ,
+
+    // some codes here
+    { 1 < 2 , e }
+
+]
+
+[ 10 , pr ]
+
+( space , 10 )
+"jkjh"
+'the value of space is = | @space |'
+
+
+
+
+
+!drawStars(50)
+
+// Trees
+
+   ( spacing , 0 )
+
+   [ #i 3,
+
+      i
+
+      // we set a random color
+         [ #rnd  4 , n ]
+
+      // random height
+         [  ( #rnd  -7 ) - 5 + #j 2 , d ]
+
+      // and we keep where we are using
+      // @spacing, This way we can count
+      // how many 6 dot should we add
+
+         [ @spacing , r ]
+
+      !drawTree ()
+
+      // 6 dot is not the real
+      // displacement but the 7 is look
+      // at the image and you see why
+         ( spacing , + 7 )
+   ]
+
+// Ground
+   !drawGround()
+
+// Rocks
+   [ 4 , !drawRocks() ]
+
+// done

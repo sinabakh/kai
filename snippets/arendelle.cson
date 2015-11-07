@@ -1,0 +1,13 @@
+'.source.arendelle':
+  '[ Mathematical Expression , Code ]':
+    'prefix': 'loop.arendelle'
+    'body': '[ ${1:Mathematical Expression} , ${2:Code} ]'
+  '{ Condition , Code }':
+    'prefix': 'condition.simple.arendelle'
+    'body': '{ ${1:Condition} , ${2:Code} }'
+  '{ Condition , TrueCode, FalseCode }':
+    'prefix': 'condition.complete.arendelle'
+    'body': '{ ${1:Condition} ,\n ${2:TrueCode}\n ,\n ${3:FalseCode}\n }'
+  '( SpaceName , Value )':
+    'prefix': 'space.arendelle'
+    'body': '( ${1:SpaceName} , ${2:Value} )'

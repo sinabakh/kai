@@ -5,7 +5,7 @@
   "description": "Arendelle language support in Atom",
   "keywords": [
   ],
-  "repository": "https://github.com/atom/arendelle",
+  "repository": "https://github.com/arendelle/arendelle-atom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

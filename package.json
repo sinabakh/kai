@@ -1,15 +1,13 @@
 {
   "name": "arendelle",
   "main": "./lib/arendelle",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Arendelle language support in Atom",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "https://github.com/arendelle/arendelle-atom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }

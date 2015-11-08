@@ -21,7 +21,11 @@
     'name': 'constant.language.arendelle'
   }
   {
-    'match': '(\\[|\\]|{|}|,|\\(|\\)|or|and|<|>)'
+    'match': '(\\[|\\]|{|}|,|\\(|\\)|<|>)'
+    'name': 'keyword.control.arendelle'
+  }
+  {
+    'match': '\\b(or|and)\\b'
     'name': 'keyword.control.arendelle'
   }
   {

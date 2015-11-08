@@ -5,11 +5,11 @@
 ]
 'patterns': [
   {
-    'match': '//.*$'
+    'match': '//.*'
     'name': 'comment.double-slash.arendelle'
   }
   {
-    'match': '\\B(#width|#i|#height|#j|#rnd|#n|#x|#y|#pi)\\b'
+    'match': '\\B(#[a-zA-Z]+)\\b'
     'name': 'constant.language.arendelle'
   }
   {
@@ -25,19 +25,19 @@
     'name': 'keyword.control.arendelle'
   }
   {
-    'match': '\\b(or|and)\\b'
+    'match': '\\b( or | and )\\b'
     'name': 'keyword.control.arendelle'
   }
   {
-    'match': '\\B[@].\\w*'
+    'match': '\\B\@[a-zA-Z0-9 _\.]+\\w*'
     'name': 'entity.name.function.arendelle'
   }
   {
-    'match': '\\B[$].\\w*'
+    'match': '\\B\$[a-zA-Z0-9 _\.]+\\w*'
     'name': 'entity.name.function.arendelle'
   }
   {
-    'match': '\\B[!].[^\\(]*'
+    'match': '\\B\![a-zA-Z0-9 _\.]+'
     'name': 'variable.language.arendelle'
   }
   {

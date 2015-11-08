@@ -10,7 +10,7 @@
   }
   {
     'match': '\\B(#width|#i|#height|#j|#rnd|#n|#x|#y|#pi)\\b'
-    'name': 'variable.language.arendelle'
+    'name': 'constant.language.arendelle'
   }
   {
     'match': '\\b[rldupnciew]+\\b'
@@ -38,7 +38,7 @@
   }
   {
     'match': '\\B[!].[^\\(]*'
-    'name': 'storage.type.arendelle'
+    'name': 'variable.language.arendelle'
   }
   {
     'match': '"[^"\\\r\n]*(?:\\.[^"\\\r\n]*)*"'

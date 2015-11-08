@@ -13,7 +13,7 @@
     'name': 'variable.language.arendelle'
   }
   {
-    'match': '\\b[rldupn]+\\b'
+    'match': '\\b[rldupnciew]+\\b'
     'name': 'constant.language.arendelle'
   }
   {

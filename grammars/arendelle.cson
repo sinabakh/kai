@@ -37,7 +37,7 @@
     'name': 'entity.name.function.arendelle'
   }
   {
-    'match': '\\B[!].\\S*'
+    'match': '\\B[!].[^\\(]*'
     'name': 'storage.type.arendelle'
   }
   {

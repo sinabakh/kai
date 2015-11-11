@@ -11,3 +11,6 @@
   '( SpaceName , Value )':
     'prefix': 'space.arendelle'
     'body': '( ${1:SpaceName} , ${2:Value} )'
+  '[ #j , [ #i , { Condition , p } r ] [ #i , l ] d ]':
+    'prefix': 'graph.arendelle'
+    'body': '[ #j ,\n   [ #i ,\n      { ${1:Condition} , p } r\n   ]\n   [ #i , l ] d\n]'
